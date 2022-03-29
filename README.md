@@ -22,7 +22,7 @@ existing `~/.tmux.conf` first)
 $ cd
 $ git clone https://github.com/gpakosz/.tmux.git
 $ ln -s -f .tmux/.tmux.conf
-$ cp .tmux/.tmux.conf.local .
+$ ln -s -f .tmux/.tmux.conf.local
 ```
 
 💡 You can clone the repository anywhere you want, provided you create the
